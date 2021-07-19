@@ -25,8 +25,7 @@ vitrine = 8 |
 Rodapé
 Botao = 2 |
 voltar ao topo
-Sobre nós = 2 |
-link
+Quem somos = 2 |
 =========================================================================================
 
 # Estoria 2 = Pgs de Cada Produto | total= 16
@@ -39,9 +38,14 @@ Meios de pagamento(fake) = 1 |
 
 =========================================================================================
 
-# Estoria 3 = Pg Sobre Nós |total=2
+# Estoria 3 = Pg Sobre Nós |total= 11
 
 Sprint 3
-texto ficticio sobre a empresa/loja. = 2 |
+Politica de Privacidade = 2 |
+Termos de Uso = 2 |
+Tocas e devolucoes = 2 |
+Contato = 2 |
+Cadastro = 2 |
+Entrar = 2 |
 
 =========================================================================================
