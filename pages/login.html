@@ -12,14 +12,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../Styles/style.css" />
-    <title>.: Loja Caglu :: Quem Somos :.</title>
+    <title>.: Loja Caglu :: Login :.</title>
   </head>
   <body>
     <div class="d-flex flex-column wrapper">
       <!-- Class wrapper add para ocupar 100% da tela em conjunto com a class flex-fill-->
       <!-- Navigation -->
       <header class="border-bottom shadow-sm mb-3">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
           <div class="container">
             <a class="navbar-brand" href="../index.html"> <b> Caglu </b></a>
             <button
@@ -39,7 +39,9 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="./contato.html">Contato</a>
+                  <a class="nav-link text-white" href="./contato.html"
+                    >Contato</a
+                  >
                 </li>
               </ul>
               <!-- end -->
@@ -107,20 +109,53 @@
       <!-- class flex-fill add para o conteudo main preencher todo o espaço até footer chegar no final da pg (add para resolver problema de footer ñ ficar no final em pg com pouco conteúdo ) -->
       <main class="flex-fill">
         <div class="container">
-          <h1>Quem Somos</h1>
-          <hr />
-          <p>
-            Lojas Caglu é uma loja virtual (e-commerce) fictícia com a intenção
-            didática, proposta pela Empresa Gama Academy .
-          </p>
-          <p>
-            Conforme orientações, nosso objetivo principal era Desenvolver uma
-            Loja Virtual com Html5, Css3 e Bootstrap 5, com base nos conteúdos
-            apresentados ao longo do curso em sua plataforma e nossas pesquisas
-            de campo . Este site pode ser utilizado livremente como base para
-            outras lojas virtuais.
-          </p>
-          <p>Bons estudos e boa programação!</p>
+          <div class="row justify-content-center">
+            <h1>Identifique-se, por favor</h1>
+            <hr />
+            <form class="col-12 col-sm-10 col-lg-6">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="name@example.com"
+                  autofocus
+                />
+                <label for="emailInput">Endeço de Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="passwordInput"
+                  placeholder="1234abcd"
+                />
+                <label for="passwordInput">Senha</label>
+              </div>
+              <div class="form-check mb-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="toRemember"
+                />
+                <label class="form-check-label" for="toRemember">
+                  Lembrar de min
+                </label>
+              </div>
+              <a class="btn btn-lg btn-success mb-3" href="" role="button"
+                >Entrar</a
+              >
+              <p>
+                Ainda não é cadastrado?
+                <a href="./cadastre-se.html">Clique Aqui</a> para se cadastrar
+              </p>
+              <p>
+                Esqueceu sua senha?
+                <a href="./recupsenha.html">Clique aqui</a> para recuperá-la.
+              </p>
+            </form>
+          </div>
         </div>
       </main>
       <!-- Footer -->
@@ -146,7 +181,7 @@
                 >Termos de Uso</a
               >
               <br />
-              <a class="text-decoration-none text-dark" href="../index.html"
+              <a class="text-decoration-none text-dark" href="./quemsomos.html"
                 >Quem Somos</a
               >
               <br />
