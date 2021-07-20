@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../Styles/style.css" />
-    <title>.: Loja Caglu :: :.</title>
+    <title>.: Loja Caglu :: Entre em Contato :.</title>
   </head>
   <body>
     <div class="d-flex flex-column wrapper">
@@ -108,7 +108,58 @@
       <!-- navigation -->
       <!-- class flex-fill add para o conteudo main preencher todo o espaço até footer chegar no final da pg (add para resolver problema de footer ñ ficar no final em pg com pouco conteúdo ) -->
       <main class="flex-fill">
-        <div class="container"></div>
+        <div class="container">
+          <h1>Entre em Contato</h1>
+          <hr />
+          <form class="col-12 col-sm-10 col-lg-6">
+            <div class="form-floating mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="nameInput"
+                placeholder="Nome Completo"
+                autofocus
+              />
+              <label for="nameInput">Nome Completo</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="emailInput"
+                placeholder="name@example.com"
+              />
+              <label for="emailInput">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                id="messageInput"
+                placeholder="Mensagem"
+                style="height: 200px"
+              >
+              </textarea>
+
+              <label for="messageInput">Mensagem</label>
+            </div>
+
+            <a
+              class="btn btn-lg btn-success mb-3"
+              href="./confirmcontato.html"
+              role="button"
+              >Enviar Mensagem</a
+            >
+
+            <p>
+              Faremos nosso melhor para respoder sua mensagem em até 2 dias
+              úteis.
+            </p>
+            <p>
+              Atenciosamente, <br />
+              Central de Relacionamentos Lojas Caglu.
+            </p>
+          </form>
+        </div>
       </main>
       <!-- Footer -->
       <footer class="border-top text-muted bg-light">
@@ -148,12 +199,12 @@
               >
               <br />
               E-mail:
-              <a class="text-decoration-none text-dark" href=""
+              <a class="text-decoration-none text-dark" href="https://outlook.com"
                 >email@email.com</a
               >
               <br />
               Telefone:
-              <a class="text-decoration-none text-dark" href=""
+              <a class="text-decoration-none text-dark" href="https://api.whatsapp.com/send?phone=5554999999999&text=Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es."
                 >(54) 99999-9999</a
               >
             </div>
