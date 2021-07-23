@@ -5,3 +5,15 @@ body {
 .wrapper {
   min-height: 100vh;
 }
+
+.price-red {
+  color: #ff0000;
+}
+.price-green {
+  color: #008000;
+}
+.carrinho {
+  background: #15d515fb;
+
+  color: #ffffff;
+}
