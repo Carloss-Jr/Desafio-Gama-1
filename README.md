@@ -42,3 +42,5 @@ Sprint 1
 - [x] Contato = 2 |
 - [x] Cadastro = 2 |
 - [x] Entrar = 2 |
+
+Site On-line https://caglustore.netlify.app/
