@@ -43,5 +43,5 @@ Sprint 1
 - [x] Cadastro = 2 |
 - [x] Entrar = 2 |
 
-Para executar este projeto abra arquivo index.html no seu navegador ou acesse o site abaixo.
+Para executar este projeto abra arquivo index.html no seu navegador ou acesse o site a seguir.
 Site On-line https://caglustore.netlify.app/
